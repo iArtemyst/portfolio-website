@@ -2,10 +2,10 @@
 
 import "@/app/globals/globals.css";
 
-import * as gallery from "@/app/globals/project-galleries";
-import * as pages from "@/app/globals/pages-main";
-import { GalleryV2, GalleryV2InfoWithLinks } from "@/app/globals/gallery-v2";
 import * as bentos from "@/app/globals/bento-boxes";
+import { GalleryV2InfoWithLinks } from "@/app/globals/gallery-v2";
+import * as pages from "@/app/globals/pages-main";
+import * as gallery from "@/app/globals/project-galleries";
 import { MediaType } from "@/app/globals/project-galleries";
 import { ViewAnotherProjectCard, ViewAnotherProjectDiv } from "../globals/view-another-project";
 

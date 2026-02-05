@@ -1,12 +1,9 @@
 'use client'
 //---------------------
-import * as bentos from "@/app/globals/bento-boxes";
+import { GalleryV2, GalleryV2TopInfoDiv } from "@/app/globals/gallery-v2";
 import "@/app/globals/globals.css";
 import * as pages from "@/app/globals/pages-main";
-import { MediaType } from "@/app/globals/project-galleries";
-import { CheckIfMobileBrowser } from "../globals/mobile-check";
 import * as gallery from "@/app/globals/project-galleries";
-import { GalleryV2, GalleryV2TopInfoDiv } from "@/app/globals/gallery-v2";
 
 //---------------------
 const vidMonsoonVermut = "_3d/_monsoonVermut/monsoonVermut_Clip01.mp4";
@@ -59,7 +56,7 @@ const paraTextSize = "text-[8px] sm:text-[10px] md:text-[12px] lg:text-[16px] xl
 //     return (
 //         <div className={`${isMobile ? "grid-cols-2" : "grid-cols-2"} ${bentoGap} relative z-0 grid  w-[80%] h-auto justify-self-center rounded-3xl place-content-center gap-x-[12px] my-[8px] sm:my-[12px] md:my-[18px] lg:my-[24px] text-white`}>
 //             <bentos.CellMediaOnClick mediaLink={vidMonsoonVermut} mediaType={MediaType.Video} mediaText="Monsoon Vermut Release Animation" cellSpan={`${isMobile ? "col-span-2" : "col-span-2"}`} hoverTextColor="text-textVariant"/>
-            
+
 //             <bentos.CellText cellSpan={`${isMobile ? "col-span-2" : "col-span-2"}`}>
 //                 <bentos.HeaderText text="Monsoon Vermut" textSize={titleTextSize}/>
 //             </bentos.CellText>
@@ -80,6 +77,7 @@ const paraTextSize = "text-[8px] sm:text-[10px] md:text-[12px] lg:text-[16px] xl
 //         </div>
 //     )
 // }
+
 //---------------------
 export function ProjectMonsoonVermutPage() {
     return (

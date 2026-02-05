@@ -58,7 +58,7 @@ main, body, html {
   place-self: center;
   font-size: 10px;
   text-align: center;
-  background-color: #00000010;
+  background-color: transparent;
   color: #FFFFFF;
   cursor: pointer;
   text-wrap: nowrap;

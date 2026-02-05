@@ -3,15 +3,12 @@
 import "@/app/globals/globals.css";
 
 import * as bentos from "@/app/globals/bento-boxes";
+import * as fonts from "@/app/globals/fonts";
 import * as pages from "@/app/globals/pages-main";
 import { MediaType } from "@/app/globals/project-galleries";
-import { CheckIfMobileBrowser } from "../globals/mobile-check";
-import StyledLink from "../globals/styled-link";
-import { NoSelect } from "../globals/styles";
-import { hoverShadow } from "@/tailwind.config";
-import { LazyImageSizer } from "../globals/lazy-image";
-import * as fonts from "@/app/globals/fonts";
 import { ViewAnotherProjectCard, ViewAnotherProjectDiv } from "@/app/globals/view-another-project";
+import { LazyImageSizer } from "../globals/lazy-image";
+import { CheckIfMobileBrowser } from "../globals/mobile-check";
 
 const mediaFoxsukeModel01 = "_3d/_fxsk-model/fxsk_media_hero.mp4";
 const mediaFoxsukeModel02 = "_3d/_fxsk-model/fxsk_sasuke-ref-img-001.png";
@@ -29,8 +26,7 @@ const mediaFoxsukeModel12 = "_3d/_fxsk-model/fxsk_wip_003.png";
 const otherProjectLinkMedia = "_3d/_fxsk-comboVid/cv_comboVid_stills.png";
 const linkFoxsukeComboVideo = "../projFoxsukeVideo";
 
-const titleTextSize= "text-[18px] md:text-[24px] lg:text-[32px]";
-const paraTextSize = "text-[12px] md:text-[14px] lg:text-[14px]";
+
 const sasukeRefImgSizeL = `w-auto h-[360px] absolute left-0 self-center`;
 const sasukeRefImgSizeR = `w-auto h-[360px] absolute right-0 self-center`;
 const sasukeRefImgSizeMobileL = `w-auto h-[180px] absolute left-0 self-center`;

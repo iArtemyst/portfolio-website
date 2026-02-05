@@ -10,9 +10,9 @@ import * as bentos from "@/app/globals/bento-boxes";
 import { MediaType } from "@/app/globals/project-galleries";
 
 const mediaMovieRatingSite01 = "_code/movieRatingSite/WhatIsItRated_Clip_A.mp4";
-const mediaMovieRatingSite02 = "_code/movieRatingSite/MovieRating_Still_A_260129.png";
-const mediaMovieRatingSite03 = "_code/movieRatingSite/MovieRating_Still_B_260129.png";
-const mediaMovieRatingSite04 = "_code/movieRatingSite/MovieRating_Still_C_260129.png";
+const mediaMovieRatingSite02 = "_code/movieRatingSite/MovieRating_Still_A.png";
+const mediaMovieRatingSite03 = "_code/movieRatingSite/MovieRating_Still_B.png";
+const mediaMovieRatingSite04 = "_code/movieRatingSite/MovieRating_Still_C.png";
 const mediaMovieRatingCode01 = "_code/movieRatingSite/WhatIsItRated_Code_A.png";
 const mediaMovieRatingCode02 = "_code/movieRatingSite/WhatIsItRated_Code_B.png";
 const mediaMovieRatingSiteCode01 = "_code/movieRatingSite/MovieRatingSite_Code_Stills_00.png";

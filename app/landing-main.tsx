@@ -104,7 +104,7 @@ const RecentProjects: IRecentProject[] = [
     {
         projTitle:"WhatIsItRated.com", 
         projDesc:"Creator, Designer, and Developer of a Daily Movie Rating Game website and server", 
-        projMedia:"_code/movieRatingSite/MovieRating_Still_A_260129.png", 
+        projMedia:"_code/movieRatingSite/MovieRating_Still_A.png", 
         projMediaAltText:"WhatIsItRated Project Link", 
         projLinkMediaType:MediaType.Image, 
         projLink:'../projMovieRatingSite',

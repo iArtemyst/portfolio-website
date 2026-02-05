@@ -3,12 +3,8 @@
 import "@/app/globals/globals.css";
 
 import * as bentos from "@/app/globals/bento-boxes";
-import { CardHoverFX } from "@/app/globals/card-hover-fx";
 import * as pages from "@/app/globals/pages-main";
-import * as gallery from "@/app/globals/project-galleries";
 import { MediaType } from "@/app/globals/project-galleries";
-import { LazyVideo } from "@/app/globals/lazy-video";
-import { CheckIfMobileBrowser } from "@/app/globals/mobile-check";
 import { GalleryV2TopInfoDiv } from "../globals/gallery-v2";
 
 const imgPubDart01 = "_3d/_pubDart/pubDart_img_05.jpg";
@@ -21,8 +17,6 @@ const vidPubDart04 = "_3d/_pubDart/pubDart_vid_03.mp4";
 const vidPubDart05 = "_3d/_pubDart/pubDart_vid_04.mp4";
 
 const bentoGap = "gap-[12px]";
-const titleTextSize= "text-[24px]";
-const paraTextSize = "text-[12px]";
 
 
 function BentoBoxA() {

@@ -8,8 +8,8 @@ export function SiteFooter() {
     return (
         <>
             <div className="siteFooterDiv">
-                <p className={`${fonts.dotoBlack.className} place-self-center`} onClick={(() => window.open("https://github.com/iartemyst", "_blank"))}>
-                    My Portfolio Site | Designed and Developed by Evelyn Youngblood | © 2026
+                <p className={`${fonts.dotoBlack.className} place-self-center drop-shadow-[0px_0px_.5em_#000000AA]`} onClick={(() => window.open("https://github.com/iartemyst", "_blank"))}>
+                    Designed + Developed by Me! | Visit my Github | © 2026
                 </p>
             </div>
         </>

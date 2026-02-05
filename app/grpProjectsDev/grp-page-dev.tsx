@@ -12,7 +12,7 @@ const imgBingo = "_project-links/prjLink_bingo_400px.mp4";
 const vidWebsite = "_project-links/linkVid_Portfolio_400px.mp4";
 const imgSlippiTVApp = "_project-links/projLinkVideo_Sq_SlippiTV_400px.mp4";
 const imgSlippiTVWeb = "_project-links/projLinkVideo_Sq_SlippiTV-watch_400px.mp4";
-const vidMovieRatingSite = "_project-links/projLinkVideo_Sq_DailyMovieRating_400px.mp4";
+const vidMovieRatingSite = "_project-links/vidLink_WhatIsItRated_400px.mp4";
 
 const linkWebsite = "../projPortfolioSite";
 const linkBingo = '../projBingoBoard';

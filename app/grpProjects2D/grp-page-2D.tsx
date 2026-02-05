@@ -3,12 +3,11 @@
 import "@/app/globals/globals.css";
 
 import * as pages from "@/app/globals/pages-main";
-import { IProjectLinkCard, IProjectLinkCardRestricted, ProjectLinkCardsContainer, ProjectLinkCardsRestrictedContainer } from "@/app/globals/project-link-cards";
+import { IProjectLinkCard, IProjectLinkCardRestricted, ProjectLinkCardsRestrictedContainer } from "@/app/globals/project-link-cards";
 import { useState, useEffect } from "react";
 import Loading from "../globals/loading-text";
 import { FeaturedProjectsDiv, IFeaturedProjectCard } from "../globals/featured-projects";
-import { LazyHoverVideo, LazyNonHoverVideo, LazyVideo } from "../globals/lazy-video";
-import * as fonts from "@/app/globals/fonts";
+import { LazyNonHoverVideo } from "../globals/lazy-video";
 import { ShuffleCardArray } from "@/app/globals/shuffle-project-cards";
 
 const vidBankApp = "_2d/app-bank-concept/prjLink_bankApp_400px.mp4";

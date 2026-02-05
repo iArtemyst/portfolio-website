@@ -15,17 +15,13 @@ const imgDDRMelee01 = "_motionui/_ddrmelee/ddr-melee_stills_10.png";
 const imgDDRMelee02 = "_motionui/_ddrmelee/ddr-melee_stills_11.png";
 const imgDDRMelee03 = "_motionui/_ddrmelee/ddr-melee_stills_12.png";
 const imgDDRMelee04 = "_motionui/_ddrmelee/ddr-melee_stills_13.png";
-
 const vidDDRMelee01 = "_motionui/_ddrmelee/ddr-melee-intro_1440px.mp4";
 const vidDDRMelee02 = "_motionui/_ddrmelee/ddr_melee_liveAE_v1.mp4";
 
+const youtubeLink = "https://youtu.be/IljUm6WHTXE?si=hxR6P6yWpDYSHC0l";
 const otherProjectLinkMedia = "_3d/_fxsk-comboVid/cv_comboVid_stills.png";
 const linkFoxsukeComboVideo = "../projFoxsukeVideo";
 
-const youtubeLink = "https://youtu.be/IljUm6WHTXE?si=hxR6P6yWpDYSHC0l";
-
-const titleTextSize= "text-[24px]";
-const paraTextSize = "text-[12px]";
 
 function BentoBoxA() {
     let isMobile = CheckIfMobileBrowser();

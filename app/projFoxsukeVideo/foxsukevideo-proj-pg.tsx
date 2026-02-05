@@ -4,13 +4,9 @@ import "@/app/globals/globals.css";
 
 import * as bentos from "@/app/globals/bento-boxes";
 import * as pages from "@/app/globals/pages-main";
-import { MediaType } from "@/app/globals/project-galleries";
-import { CheckIfMobileBrowser } from "../globals/mobile-check";
-import StyledLink from "../globals/styled-link";
-import { NoSelect } from "../globals/styles";
-import { hoverShadow } from "@/tailwind.config";
-import { GalleryV2b, GalleryV2TopInfoDiv } from "../globals/gallery-v2";
 import * as gallery from "@/app/globals/project-galleries";
+import { MediaType } from "@/app/globals/project-galleries";
+import { GalleryV2b, GalleryV2TopInfoDiv } from "../globals/gallery-v2";
 import { ViewAnotherProjectCard, ViewAnotherProjectDiv } from "../globals/view-another-project";
 
 const mediaFxskVid01 = "_3d/_fxsk-comboVid/cv_character-turnarounds.mp4";
@@ -30,15 +26,11 @@ const mediaFxskVid15 = "_3d/_fxsk-comboVid/cv_wip_keyframes_still.png";
 const mediaFxskVid16 = "_3d/_fxsk-comboVid/cv_wip_audioEditing_still.png";
 const mediaFxskVid17 = "_3d/_fxsk-comboVid/cv_comboVid_stills.png";
 
-
 const ytEmbedLinkDirectorsCut = "https://www.youtube.com/embed/9VLD13rxklg?si=jPAAkzJmku6cvdIo-IXMZTYM&amp;start=1";
 const ytEmbedLinkComboVidCut = "https://www.youtube.com/embed/jUBAnyPrEME?si=YI8Ps4vV5b3r7xfr-IXMZTYM&amp;start=1";
-
 const otherProjectLinkMedia = "_3d/_fxsk-model/fxsk_model-in-game.png";
 const linkFoxsukeComboVideo = "../projSasukeModel";
 
-const titleTextSize= "text-[24px]";
-const paraTextSize = "text-[12px]";
 
 const FoxsukeComboVidMedia: gallery.IGalleryMedia[] = [
     {
