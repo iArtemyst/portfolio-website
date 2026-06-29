@@ -101,13 +101,13 @@ const groupCardData: IProjectLinkCard[] = [
         cardLink: linkConceptSteamApp,
         errorText: "Figma + Illustrator",
     },
-    {
-        projectTitle: "Stubble Hair Generator",
-        projectDates: "2024",
-        mediaLink: vidHairGenerator,
-        cardLink: linkHairGenerator,
-        errorText: "Substance Designer",
-    },
+    // {
+    //     projectTitle: "Stubble Hair Generator",
+    //     projectDates: "2024",
+    //     mediaLink: vidHairGenerator,
+    //     cardLink: linkHairGenerator,
+    //     errorText: "Substance Designer",
+    // },
     {
         projectTitle: "HacKVerse Marketing",
         projectDates: "2023",

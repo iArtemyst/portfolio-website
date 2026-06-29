@@ -143,7 +143,7 @@ const groupCardDataRestricted: IProjectLinkCardRestricted[] = [
     },
     {
         projectTitle: "Mammotome AutoCore Device",
-        projectDates: "2023-2024",
+        projectDates: "2023-2026",
         mediaLink: vidMammotome,
         cardLink: linkMammotome,
         softwareUsed: "3DS Max + Vray + After Effects",
@@ -189,14 +189,14 @@ const groupCardDataRestricted: IProjectLinkCardRestricted[] = [
         softwareUsed: "Blender 3D",
         locked: false,
     },
-    {
-        projectTitle: "VR Lab Environments",
-        projectDates: "2022-2024",
-        mediaLink: vidVRLabs,
-        cardLink: linkVRLabs,
-        softwareUsed: "3DS Max + Unity Engine",
-        locked: true,
-    },
+    // {
+    //     projectTitle: "VR Lab Environments",
+    //     projectDates: "2022-2024",
+    //     mediaLink: vidVRLabs,
+    //     cardLink: linkVRLabs,
+    //     softwareUsed: "3DS Max + Unity Engine",
+    //     locked: true,
+    // },
 ]
 
 export default function GroupProjects3D() {
