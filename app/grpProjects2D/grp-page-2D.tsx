@@ -180,14 +180,14 @@ const groupCardDataRestricted: IProjectLinkCardRestricted[] = [
         softwareUsed: "Figma + Illustrator",
         locked: false,
     },
-    {
-        projectTitle: "Stubble Hair Generator",
-        projectDates: "2024",
-        mediaLink: vidHairGenerator,
-        cardLink: linkHairGenerator,
-        softwareUsed: "Substance Designer",
-        locked: true,
-    },
+    // {
+    //     projectTitle: "Stubble Hair Generator",
+    //     projectDates: "2024",
+    //     mediaLink: vidHairGenerator,
+    //     cardLink: linkHairGenerator,
+    //     softwareUsed: "Substance Designer",
+    //     locked: true,
+    // },
     {
         projectTitle: "HacKVerse Marketing",
         projectDates: "2023",
